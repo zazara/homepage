@@ -1,3 +1,7 @@
+a{
+   color: deepskyblue;
+}
+
 .container{
     max-width: 1100px;
     margin-left: auto;
@@ -5,6 +9,13 @@
 }
 
 .index{
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid silver;
+}
+
+.work-header{
     text-align: center;
 }
 
@@ -18,4 +29,15 @@
 .work-card{
     margin-right: 20px;
     margin-left: 20px;
+    text-align: center;
+}
+
+.work-image{
+    height: 80px;
+    width: 410px;
+    object-fit: cover;
+}
+
+.work-text{
+    text-align: left;
 }
